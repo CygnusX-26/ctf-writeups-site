@@ -14,7 +14,7 @@ export default function HomeLayout({children}) {
             />
         </div>
         <div className={styles.titleText}>
-            <span>CygnusX26's Writeups</span>
+            <span>CygnusX26&apos;s Writeups</span>
         </div>
         <div className={styles.titleText}>
             <p>Member and Treasurer of team b01lers</p>
