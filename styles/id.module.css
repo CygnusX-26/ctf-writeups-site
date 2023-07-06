@@ -1,0 +1,45 @@
+
+.pageContent {
+    border: 5px solid var(--border-color);
+    border-radius: 25px;
+    padding: 50px;
+    margin: 0px;
+    height: 40vh;
+    overflow-y:auto;
+    background-color: var(--writeup-background);
+    color: var(--text-color);
+}
+
+.headers {
+    display: block;
+    font-size: x-large;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.subHeaders {
+    display: inline-block;
+    margin-left: 5vh;
+    color: var(--text-color);
+}
+
+.subHeadersDate {
+    right: 5vh;
+    position: absolute;
+    display: inline-block;
+    color: var(--text-color);
+}
+
+.profileImage {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    transition: 0.5s;
+    margin-left: 40vh;
+    margin-right: 40vh;
+}
+
+.profileImage:hover {
+    transform: scale(1.5);
+}

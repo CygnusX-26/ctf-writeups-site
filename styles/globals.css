@@ -1,0 +1,29 @@
+:root {
+    font-family: "Alata-Regular";
+    font-weight: lighter;
+    --background: white;
+    --foreground: black;
+    --writeup-color: aliceblue; 
+    --writeup-color-hover: aquamarine;
+    --border-color: black;
+    --text-color: black;
+    --writeup-background: antiquewhite;
+    --go-home: blue;
+}
+  
+[data-theme='dark'] {
+    --background: black;
+    --foreground: white;
+    --writeup-color: gray;
+    --writeup-color-hover: darkgray;
+    --border-color: white;
+    --text-color: white;
+    --writeup-background: rgb(45, 45, 45);
+    --go-home: lightgray;
+}
+
+@font-face {
+    font-family: "Alata-Regular";
+    src: url("Alata-Regular.ttf") format("truetype");
+}
+  

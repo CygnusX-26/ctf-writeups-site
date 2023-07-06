@@ -1,0 +1,39 @@
+.homeButton span{
+    background-size:cover;
+    display: block;
+    object-fit: fill;
+    height: 100%;
+    width: 20%;
+}
+
+.homeButton {
+    border: 5px solid var(--border-color);
+    display: flex;
+    height: 20vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 5vh;
+    transition: 0.5s;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--writeup-color);
+    font-size: 2rem;
+}
+
+.homeButton:hover {
+    background-color: var(--writeup-color-hover);
+    height: 30vh;
+    margin-left: 35vh;
+    margin-right: 35vh;
+    cursor: pointer;
+    font-size: 2.6rem;
+}
+
+.text {
+    color: var(--text-color);
+    margin: 10vh;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

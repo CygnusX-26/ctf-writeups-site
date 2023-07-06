@@ -1,0 +1,12 @@
+
+.goBack {
+    color: var(--go-home);
+    margin: 10px;
+    font-size: x-large;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.goBack:hover {
+    text-decoration: underline;
+}

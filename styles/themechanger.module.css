@@ -1,0 +1,10 @@
+
+.toggleText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggleText span {
+    margin-right: 1rem;
+}

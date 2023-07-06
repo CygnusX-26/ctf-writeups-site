@@ -1,0 +1,11 @@
+
+.titleText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleText span {
+    margin-top : 1rem;
+    font-size: 2rem;
+}
