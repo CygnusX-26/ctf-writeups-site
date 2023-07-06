@@ -28,12 +28,54 @@
     cursor: pointer;
     font-size: 2.6rem;
 }
+  
 
 .text {
     color: var(--text-color);
-    margin: 10vh;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Example of a media query for mobile devices */
+@media screen and (max-width: 1000px) {
+    .homeButton:hover {
+        background-color: var(--writeup-color-hover);
+        margin-left: 10vw;
+        margin-right: 10vw;
+        height: 30vw;
+        cursor: pointer;
+        font-size: 1.3rem;
+    }
+    .homeButton {
+        border: 5px solid var(--border-color);
+        display: flex;
+        height: 30vw;
+        margin-left: 20vw;
+        margin-right: 20vw;
+        margin-top: 5vw;
+        transition: 0.5s;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: var(--writeup-color);
+        font-size: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .homeButton span{
+        background-size: fill;
+        display: flex;
+        object-fit: fill;
+        flex-basis: 30vw;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+    .text {
+        color: var(--text-color);
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
